@@ -1,0 +1,5 @@
+package what
+
+func soma[T int | float64] (a, b T) T{
+	return a+b
+}
